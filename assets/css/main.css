@@ -1,0 +1,149 @@
+
+nav{
+    margin: 32px 320px 56px 200px;
+}
+/* LIBRARY */
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear-fix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* NAVBAR */
+.nav-left{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.33px;
+    font-family: Playfair Display;
+}
+.nav-left a{
+    color: #121221; 
+}
+.nav-left a:first-child {
+    background-color: #121221;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+}
+.nav-right{
+    color: #444;
+}
+.nav-right i:first-child{
+    margin-right:32.2px ;
+}
+main,section{
+    margin: 0 210px;
+}
+/* MAIN */
+main{
+    margin-bottom: 56px;
+}
+.main-title{
+    font-family: Roboto sans-serif;
+    font-size: 48px;
+    line-height: 56.25px;
+    font-weight: 700;
+    color: #121221;
+    margin-bottom: 24px;
+}
+.main-photo{
+    background-image: url(../img/swimmer.jpg);
+    width: 870px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    color: #fff
+}
+.main-news{
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    padding: 190px 295px 16px 32px;
+}
+.time,.place{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #f8f8f8;
+    padding: 0 0 32px 32px;
+    
+}
+
+.main-text{
+    font-family: Playfair Display;
+    width: 270px;
+    height: 344px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    margin-left: 30px;
+}
+.main-text span{
+    line-height: 64.8px;
+    font-size: 36px;
+}
+.main-photo,.main-text{
+    display: inline-block;
+}
+
+/* SECTION */
+
+section h3{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    color: #121221;
+    margin-bottom: 24px;
+}
+.news-line .news{
+    display: inline-block;
+}
+.news-line{
+    margin-bottom: 64px;
+}
+.news-photo img{
+    width: 270px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.news .news-photo:not(:last-child){
+    margin-right: 30px;
+}
+.news-title{
+    color: #121221;
+    font-size: 24px;
+    line-height: 31.99px;
+    font-weight: 700;
+    width: 270px;
+    margin-bottom: 20px;
+}
+.news .time,.news .place{
+    color: #949494;
+    padding: 0; 
+}
+.news .time{
+    margin-right: 16px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #f8f8f8;
+    color: #949494;
+    text-align: center;
+    height: 52px;
+    padding-top: 31px;
+}
+
+
